@@ -1,0 +1,6 @@
+[build]
+  # The app lives at the repository root. This overrides the incorrect
+  # "Base directory" value set in the Netlify UI.
+  base = "/"
+  command = "npm run build"
+  publish = ".next"
